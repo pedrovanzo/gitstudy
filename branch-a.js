@@ -1,6 +1,7 @@
 const a = 1
 const b = 2
-function foo(first, second) {
-    return first + second
+const c = 3
+function foo(first, second, third) {
+    return first + second + third
 }
-foo(a, b)
+foo(a, b, c)
